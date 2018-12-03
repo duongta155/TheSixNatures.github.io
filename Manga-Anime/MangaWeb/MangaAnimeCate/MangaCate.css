@@ -1,0 +1,201 @@
+/* Good way here */
+@font-face {
+    font-family: TheSixNatures;
+    src: url(../../../FontDownload/3Dumb.ttf);
+}
+#text {
+    color: #d1ef9f;
+    font-family: TheSixNatures;
+    text-transform: uppercase;
+}
+@font-face {
+    font-family: Category;
+    src: url(../../../FontDownload/Aaargh.ttf);
+}
+#CateName {
+    font-family: Category;
+    font-weight: bold;
+}
+@font-face {
+    font-family: Article;
+    src: url(../../../FontDownload/BonvenoCF.otf);
+}
+#Header{
+    position: relative;
+    background-color: #efffe9;
+}
+/*Social Media Effect*/
+#SocMed  {display: flex;flex-direction: row;}
+#facebook > #SocMedia:hover {color: #0041ce;}
+#twitter> #SocMedia:hover {color: #2df8ff;}
+#instagram > #SocMedia:hover {color: #e5143a;}
+#search > #SocMedia:hover {color: #d1ef9f;}
+#SocMedia {color: black;}
+/* cate effect */
+#cate > a:link, a:visited, a:active {color: black;}
+#category > a:hover {color: #7cc400;}
+#CateLink {color: black;}
+#cate {
+    background-color:  #d1ef9f;
+    font-family: Category;
+    font-weight: bold;
+    color: black;
+}
+/*The Six Natures */
+#text {font-family: TheSixNatures; text-align: center;}
+
+/*Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 960px) {
+    .container-fluid {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    /* Header */
+    #Header {height: 108px;}
+    .pad {padding-left: 4vw;}
+    .small {display: none;}
+    /*Display compatible navigation bar*/
+    #NavSmall {
+        display: none;
+        padding-top: 1vh;
+    }
+    #NavLarge {
+        display: block;
+        padding-top: 10px;
+    }
+    #cate {font-size: 113%;}
+    .navbar {
+        height: 60px;
+    }
+    /* Social Media CSS */
+    .fa {
+        font-size: 112%;
+    }
+    /* Paragraph for the content */
+    #Info {font-size: 130%;}
+    #titleHead {font-size: 180%;}
+    #view {font-size: 130%;}
+
+   /* Footer */
+   #Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif; height: 130px; position: relative; line-height: 25px;}
+   #word {color: white; font-size: 130%;}
+   #word1 {color: white; font-size: 125%; padding-top: 25px;}
+}
+
+/* Large tablet 992px  --------------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 960px) and (min-width: 769px) {
+    .container-fluid {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    /* Header */
+    #Header {height: 108px;}
+    .pad {padding-left: 4vw;}
+    .small {display: none;}
+    /*Display compatible navigation bar*/
+    #NavSmall {
+        display: none;
+        padding-top: 1vh;
+    }
+    #NavLarge {
+        display: block;
+        padding-top: 14px;
+    }
+    #cate {font-size: 75%;}
+    .navbar {
+        height: 60px;
+    }
+    /* The Six Natures edit */
+    #text {font-size: 200%;font-family: TheSixNatures; font-weight: bold; text-align: center;}
+    /* Social Media CSS */
+    .fa {
+        font-size: 105%;
+    }
+
+    /* Paragraph for the content */
+    #Info {font-size: 100%;}
+    #titleHead {font-size: 160%;}
+    #view {font-size: 100%;}
+
+    /* Footer */
+    #Footer {background-color: #0f4200; height: 120px; line-height: 20px;}
+    #word1 {color: white; font-size: 125%; padding-top: 30px;}
+    #word {color: white; font-size: 130%;}
+}
+
+/*medium tablet 768px  --------------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    .container-fluid {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    /*Things in the header */
+    #Logo {width: 97px; height: 70px;}
+    .pad {padding-left: 4vw;}
+    #Header {height: 70px;}
+    .small {display: none;}
+    /*Display compatible navigation bar*/
+    #NavSmall {
+        display: none;
+        padding-top: 1vh;
+    }
+    #NavLarge {
+        display: block;
+        padding-top: 8px;
+    }
+    #cate {font-size: 60%;}
+    .navbar {
+        height: 45px;
+    }
+    /* The Six Natures edit */
+     #text {font-size: 150%;font-family: TheSixNatures; font-weight: bold;}
+    /* Social Media CSS */
+    .fa {
+        font-size: 91%;
+    }
+
+    /* Paragraph for the content */
+    #Info {font-size: 100%;}
+    #titleHead {font-size: 160%;}
+    #view {font-size: 100%;}
+
+     /* Footer */
+     #Footer {background-color: #0f4200; height: 120px; line-height: 20px;}
+     #word1 {color: white; font-size: 100%; padding-top: 25px;}
+     #word {color: white; font-size: 90%;}
+}
+
+/* Small device 575px --------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 576px) {
+    /*Things in the header */
+    #Logo {width: 78px; height: 56px;}
+    .pad {padding-left: 4vw;}
+    #Header {height: 70px;}
+    .large {display: none;}
+    /*Display compatible navigation bar*/
+    #NavLarge {
+        display: none;
+    }
+    .navbar {
+        height: 45px;
+    }
+    .dropdown-menu > a:hover {color: #7cc400; background-color: pink;}
+    .dropdown-toggle {background-color: #7cc400;}
+    #NAV {font-size: 113%; font-family: Category;}
+    /* The Six Natures */
+    #text {font-size: 100%;font-family: TheSixNatures; font-weight: bold;}
+    /* Social Media CSS */
+    .fa {
+        font-size: 100%;
+    }
+
+    /* Paragraph for the content */
+    #Info {font-size: 100%;}
+    #titleHead {font-size: 160%;}
+    #view {font-size: 100%;}
+
+     /* Footer */
+     #Footer {background-color: #0f4200; height: 100px; line-height: 15px;}
+    #word1 {color: white; font-size: 100%; padding-top: 25px;}
+    #word {color: white; font-size: 100%;}
+ }

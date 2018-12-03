@@ -54,12 +54,10 @@
     #Header {height: 108px;}
     .pad {padding-left: 4vw;}
     .small {display: none;}
-    #date {font-size: 56%;}
-/* Font for all */
-.col-lg-8 {line-height: 35px; font-size: 150%;}
+    #date {font-size: 72%;}
 /* Main Head for Section */
-.lead {font-weight: bold; text-align: center; font-size: 168%;}
-.mt-4 {font-weight: bold; font-size: 196%;}
+.lead {font-weight: bold; text-align: center; font-size: 201%;}
+.mt-4 {font-weight: bold; font-size: 235%;}
 /*Similar Article */
 #suggested {font-weight: bold;}
 #box {padding: 0 0 0 0;}
@@ -86,7 +84,27 @@
     font-size: 112%;
 }
 /*Paragraph in the content*/
-#cont {font-size: 84%; line-height: 35px;}
+#cont {font-size: 100%; line-height: 30px;}
+#post {font-size: 100%; line-height: 30px;}
+
+/* Image for Content */
+#Imag {
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 322px;
+}
+
+/*Similar Articles*/
+#CulImg {
+    object-fit: cover;
+    opacity: 1;
+    height: 65%;
+}
+#CulTitle {
+    font-size: 100%;
+}
 
 /* Footer */
 #Footer {background-color: #0f4200; font-family: 'Times New Roman', Times, serif; height: 130px; position: relative; line-height: 25px;}
@@ -96,17 +114,15 @@
 
     /*Medium tablet 768-960px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 960px) and (min-width: 769px) {
-    /* Font for all */
-    .col-lg-8 {line-height: 35px; font-size: 150%;}
     /*Things in the header */
     #Logo {width: 97px; height: 70px;}
     .pad {padding-left: 4vw;}
     #Header {height: 70px;}
     .small {display: none;}
-    #date {font-size: 56%;}
+    #date {font-size: 72%;}
     /* Main Head for Section */
-    .lead {font-weight: bold; text-align: center; font-size: 168%;}
-    .mt-4 {font-weight: bold; font-size: 196%;}
+    .lead {font-weight: bold; text-align: center; font-size: 201%;}
+    .mt-4 {font-weight: bold; font-size: 235%;}
     #suggested {font-weight: bold;}
      /*Display compatible navigation bar*/
      #NavSmall {
@@ -131,7 +147,26 @@
         font-size: 91%;
     }
     /*Paragraph in the content*/
-    #cont {font-size: 84%; line-height: 35px;}
+    #cont {font-size: 100%; line-height: 30px;}
+    #post {font-size: 100%; line-height: 30px;}
+    /* Image for Content */
+    #Imag {
+        object-fit: cover;
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: 322px;
+    }
+    
+    /*Similar Articles*/
+    #CulImg {
+        object-fit: cover;
+        opacity: 1;
+        height: 65%;
+    }
+    #CulTitle {
+        font-size: 100%;
+    }
     
     /* Footer */
     #Footer {background-color: #0f4200; height: 120px; line-height: 20px;}
@@ -141,17 +176,15 @@
 
     /*Small tablet 576-578px  --------------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 768px) and (min-width: 576px) {
-    /* Font for all */
-    .col-lg-8 {line-height: 35px; font-size: 150%;}
     /*Header Logo */
     #Logo {width: 97px; height: 70px;}
     .pad {padding-left: 4vw;}
     #Header {height: 70px;}
     .small {display: none;}
-    #date {font-size: 56%;}
+    #date {font-size: 72%;}
     /* Main Head for Section */
-    .lead {font-weight: bold; text-align: center; font-size: 168%;}
-    .mt-4 {font-weight: bold; font-size: 196%;}
+    .lead {font-weight: bold; text-align: center; font-size: 201%;}
+    .mt-4 {font-weight: bold; font-size: 235%;}
     #suggested {font-weight: bold;}
      /*Display compatible navigation bar*/
      #NavSmall {
@@ -183,7 +216,27 @@
         transform: translate(0, -50%);
     }
     /*Paragraph in the content*/
-    #cont {font-size: 84%; line-height: 35px;}
+   #cont {font-size: 100%; line-height: 30px;}
+    #post {font-size: 100%; line-height: 30px;}
+    
+    /* Image for Content */
+    #Imag {
+        object-fit: cover;
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: 322px;
+    }
+    
+    /*Similar Articles*/
+    #CulImg {
+        object-fit: cover;
+        opacity: 1;
+        height: 65%;
+    }
+    #CulTitle {
+        font-size: 100%;
+    }
     
      /* Footer */
      #Footer {background-color: #0f4200; height: 120px; line-height: 20px;}
@@ -208,19 +261,41 @@
      .pad {padding-left: 4vw;}
      #Header {height: 70px;}
      .large {display: none;}
-     #date {font-size: 40%;}
-    /* Font for all */
-    .col-lg-8 {line-height: 35px; font-size: 150%;}
+     #date {font-size: 44%;}
+     
+    /* Intro Size */
+    #post {font-size: 70%;}
+    
     /* Main Head for Section */
-    .lead {font-weight: bold; text-align: center; font-size: 61%;}
-    .mt-4 {font-weight: bold; font-size: 70%;}
+    .lead {font-weight: bold; text-align: center; font-size: 101%;}
+    .mt-4 {font-weight: bold; font-size: 117%;}
     #suggested {font-weight: bold;}
+    
     /* Social Media CSS */
     .fa {
         font-size: 100%;
     }
+    
     /*Paragraph in the content*/
-    #cont {font-size: 50%; line-height: 16px;}
+    #cont {font-size: 70%; line-height: 16px;}
+    /* Image for Content */
+    #Imag {
+        object-fit: cover;
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: 225px;
+    }
+    
+    /*Similar Articles*/
+    #CulImg {
+        object-fit: cover;
+        opacity: 1;
+        height: 65%;
+    }
+    #CulTitle {
+        font-size: 100%;
+    }
     
     /* Footer */
     #Footer {background-color: #0f4200; height: 100px; line-height: 15px;}

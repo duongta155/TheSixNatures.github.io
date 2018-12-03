@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Six Natures - Manga&Anime</title>
+
+     <!--Font-awesome import-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+     <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+     <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <!-- Popper JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+ 
+     <link rel="stylesheet" type="text/css" href="MangaCate.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/1-col-portfolio.css" rel="stylesheet">
+
+    <style type="text/css">
+      .SecondPage {display: none;}
+    </style>
+    <script>
+      $(document).ready(function(){
+          $("#button1Page1").click(function(){$("#Page1").show();$("#Page2").hide();$("#Page2").removeClass("SecondPage");});
+          $("#button2Page2").click(function(){$("#Page1").hide();$("#Page2").show();$("#Page2").removeClass("SecondPage");});
+      });
+    </script>
+
+  </head>
+
+  <body>
+   <!--Page Header -->
+   <nav class="navbar navbar-expand-sm large" id="Header">
+      <div class="w-75">
+          <a href="../../../index.html" class="pad">
+              <img src="../../../MainIndexPic/HeadPic/LogoMain.png" alt="The Logo of The Six Natures" id="Logo" width="150vw" height="108vh">
+          </a>
+      </div>
+          
+          <!-- Navbar links -->
+      <ul class="navbar-nav pb-5" id="SocMed">
+          <li class="nav-item pr-4" id="search">
+              <a href="#" id="SocMedia">
+                  <i class="fa fa-search" data-toggle="modal" data-target="#myModal"></i>
+              </a>
+          </li>
+          <li id="facebook" class="nav-item pr-4"><a href="#" id="SocMedia"><i class="fa fa-facebook"></i></a></li>
+          <li id="twitter" class="nav-item pr-4"><a href="#" id="SocMedia"><i class="fa fa-twitter"></i></a></li>
+          <li id="instagram" class="nav-item pr-5"><a href="#" id="SocMedia"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+  </nav>
+
+  <!--Phone-->
+  <nav class="navbar navbar-expand-sm small" id="Header">
+      <div class="w-25">
+          <a href="../../../index.html" class="pad">
+          <img src="../../../MainIndexPic/HeadPic/LogoMain.png" alt="The Logo of The Six Natures" id="Logo" width="150vw" height="108vh">
+          </a>
+      </div>
+      
+      <!-- Navbar links -->
+      <ul class="navbar-nav pb-4" id="SocMed">
+          <li id="search" class="nav-item pr-3">
+              <a href="#" id="SocMedia">
+                  <i class="fa fa-search" data-toggle="modal" data-target="#myModal"></i>
+              </a>
+          </li>
+          <li id="facebook" class="nav-item pr-3"><a href="#" id="SocMedia"><i class="fa fa-facebook"></i></a></li>
+          <li id="twitter" class="nav-item pr-3"><a href="#" id="SocMedia"><i class="fa fa-twitter"></i></a></li>
+          <li id="instagram" class="nav-item pr-5"><a href="#" id="SocMedia"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+  </nav>
+
+   <!-- Modal -->
+   <div class="modal" id="myModal">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-body">
+                  <input type="text" id="mySearch" onkeyup="search()" class="form-control" placeholder="Search..">
+                  <!--Database-->
+                  <ul class="list-group" id="myMenu" style="list-style: none;">
+                    <li class="list-group-item list-group-item-action">
+                      <a href="#">Top 6 Japanese Festivals</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                      <a href="#">Top 6 Japanese Mindbending Movie</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                      <a href="#">Top 6 Japanese Come-Backs Anime</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="../../../MainIndexPic/CulturePart/Top6ExpensiveFood/Top6ExpensiveFood.html">Top 6 Japanese Expensive Food</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Monsters Appeared in Japanese Culture</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Amazing Restaurants in Anime</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Japanese glorious mountain</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Come-backs Of Celebrity</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Difference Between Dragon Ball Z Manga And Anime</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Introverted Characters In Anime</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Crossdressing Anime</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Japanese Universities</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Japanese Physics Book</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Crazy Subject Test</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Japanese Dress Style</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">Top 6 Japanese Room Style</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">TOP 6 JAPANESE DETECTIVE MOVIE</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">TOP 6 JAPANESE DOCUMENTARY MOVIE</a>
+                    </li>
+                    <li class="list-group-item list-group-item-action" style="display:none;">
+                      <a href="#">TOP 6 JAPANESE ROMANTIC MOVIE</a>
+                    </li>
+                  </ul>
+                  <script>
+                      function search() {
+                        var input = document.getElementById("mySearch");
+                        var temp = input.value.toLowerCase();
+                        var ul = document.getElementById("myMenu");
+                        var li = [];
+                        li = ul.getElementsByTagName("li");
+                        var count = 0;
+                        if (temp.length == 0) {
+                          for (let i = 3; i < li.length; i++) {
+                            li[i].style.display= "none";
+                          }
+                          for (let i = 0; i < 3; i++) {
+                            li[i].style.display = "";
+                          }
+                        } else {
+                            for (let i = 0; i < li.length; i++) {
+                              a = li[i].getElementsByTagName("a")[0];
+                              if (a.innerHTML.toLowerCase().indexOf(temp) > -1 && count <= 6) {
+                                li[i].style.display = "";
+                                count++;
+                              } else {
+                                li[i].style.display = "none";
+                              }
+                            }
+                        }
+                      }
+                  </script>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- Category -->
+<!-- Change the code below for SOCIAL MEDIA -->
+<div id="cate" class="container-fluid">
+  <nav class="navbar navbar-expand-sm" id="NavLarge">
+    <ul class="navbar-nav">
+        <li class="nav-item" id="category">
+            <a class="nav-link" href="MangaCate.html" id="CateLink">Anime&Manga&emsp;</a>
+        </li>
+        <li class="nav-item" id="category">
+            <a class="nav-link" href="#" id="CateLink">Education &emsp;</a>
+        </li>
+        <li class="nav-item" id="category">
+            <a class="nav-link" href="#" id="CateLink">Style &emsp;</a>
+        </li>
+        <li class="nav-item" id="category">
+            <a class="nav-link" href="#" id="CateLink">Culture &emsp;</a>
+        </li>
+        <li class="nav-item" id="category">
+            <a class="nav-link" href="#" id="CateLink">Movies &emsp;</a>
+        </li>
+        <li class="nav-item" id="category">
+            <a class="nav-link" href="#" id="CateLink">Music &emsp;</a>
+        </li>
+        <li class="nav-item" id="category">
+          <a class="nav-link" href="#" id="CateLink">Blogs</a>
+        </li>
+    </ul>
+  </nav>
+    <nav class="navbar navbar-expand-sm" id="NavSmall">
+      <div class="dropdown">
+        <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+          Categories
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" id="NAV" href="MangaCate.html">Anime&Manga</a>
+          <a class="dropdown-item" id="NAV" href="#">Education</a>
+          <a class="dropdown-item" id="NAV" href="#">Style</a>
+          <a class="dropdown-item" id="NAV" href="#">Culture</a>
+          <a class="dropdown-item" id="NAV" href="#">Movies</a>
+          <a class="dropdown-item" id="NAV" href="#">Music</a>
+          <a class="dropdown-item" id="NAV" href="#">Blogs</a>
+        </div>
+      </div>
+    </nav>
+</div>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Page Heading -->
+      <h1 class="my-4">
+        Manga & Anime Section
+      </h1>
+
+      <hr style="background-color: black;">
+
+      <section id="Page1">
+      <!-- Project One -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <img class="mb-3 mb-md-0" src="img/SushiRes.jpg" alt="Sushi Restaurant" width="100%;" height="358px;" style="object-fit:cover;opacity: 1;">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3 id="titleHead">Top 6 Amazing Restaurants in Anime</h3>
+          <p id="Info">The Anime world contains a lot of amazing things, including the cuisine culture that isn’t worse than that in the real world.</p> 
+          <p id="Info">Let’s together explore the top six amazing restaurants in Anime!</p>
+          <a class="btn btn-primary" href="#"><span id="view">View Article</span></a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr style="background-color: black;">
+
+      <!-- Project Two -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <img class="mb-3 mb-md-0" src="img/BroSisCon.jpg" alt="Brocon and Siscon" width="100%;" height="358px;" style="object-fit:cover;opacity: 1;">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3 id="titleHead">Top 6 Brocon Siscon</h3>
+          <p id="Info">Brocon and siscon are two technical terms referring to a type of a lot of Animes that many fans may not know. 
+            Also known as brother complex and sister complex, brocon and siscon mean a situation in which a character falls in love with his or her sibling.</p> 
+          <p id="Info">The SixNatures has come up with a list of six of the most interesting brocon/siscon animes. Let’s see!</p>
+          <a class="btn btn-primary" href="#"><span id="view">View Article</span></a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr style="background-color: black;">
+
+      <!-- Project Three -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <img class="mb-3 mb-md-0" src="img/AttackOnTitanComeBack.jpg" alt="Attack on titan 3 come back" width="100%;" height="358px;" style="object-fit:cover;opacity: 1;">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3 id="titleHead">Top 6 Come-Backs of Anime</h3>
+          <p id="Info">2018 becomes a brilliant year of the anime community, when a lot of famous names are ready to showcase their monumental come-backs.</p> 
+          <p id="Info">Below, The SixNatures has integrated a list of six celebrated names that returned to the small screen this year. Let’s see!</p>
+          <a class="btn btn-primary" href="#"><span id="view">View Article</span></a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr style="background-color: black;">
+
+      <!-- Project Four -->
+      <div class="row">
+
+        <div class="col-md-7">
+          <a href="#">
+            <img class="mb-3 mb-md-0" src="img/DragonBall.jpg" alt="Dragon Ball Z Difference" width="100%;" height="358px;" style="object-fit:cover;opacity: 1;">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3 id="titleHead">Top 6 Difference in Dragon Ball Z Anime and Manga</h3>
+          <p id="Info">Anime Dragon Ball Z’s content is very close to that of the original manga. However, there are still a few differences that require us to meticulously explore to successfully find out.</p>
+          <p id="Info">In the following, The Six Natures will figure out six interesting differences between Dragon Ball Z Manga and Anime.</p>
+          <a class="btn btn-primary" href="#"><span id="view">View Article</span></a>
+        </div>
+      </div>
+      <!-- /.row -->
+      <hr style="background-color: black;">
+    </section>
+
+    <section id="Page2" class="SecondPage">
+        <!-- Project Five -->
+        <div class="row">
+          <div class="col-md-7">
+            <a href="#">
+              <img class="mb-3 mb-md-0" src="img/KoyomiIntrovert.jpg" alt="Koyomi Introverted Character" width="100%;" height="358px;" style="object-fit:cover;opacity: 1;">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3 id="titleHead">Top 6 Introverted Characters In Anime</h3>
+            <p id="Info">TIntroverts tend to explore the emotions inside their souls. Most of the time, they’d love to enjoy a quiet and peaceful environment. 
+              However, this doesn’t mean that they cannot get accustomed to the busy social life outside.</p> 
+            <p id="Info">Today, let’s explore six introverted characters that The SixNatures have found in some of the most famous animes!</p>
+            <a class="btn btn-primary" href="#"><span id="view">View Article</span></a>
+          </div>
+        </div>
+        <!-- /.row -->
+  
+        <hr style="background-color: black;">
+  
+        <!-- Project Sixth -->
+        <!-- <div class="row">
+          <div class="col-md-7">
+            <a href="#">
+              <img class="mb-3 mb-md-0" src="img/GirlsCross.jpg" alt="Girls Crossdressing" width="100%;" height="358px;" style="object-fit:cover;opacity: 1;">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3 id="titleHead">Top 6 Girls Crossdressing Anime</h3>
+            <p id="Info">Below is the list of top six crossdressing anime you should watch. They all have a lot of audience, and their ratings are all high.</p> 
+            <a class="btn btn-primary" href="#"><span id="view">View Article</span></a>
+          </div>
+        </div> -->
+        <!-- /.row -->
+      <!-- <hr style="background-color: black;"> -->
+    </section>
+
+      <!-- Pagination -->
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#Page1" id="button1Page1">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#Page2" id="button2Page2">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer of the page -->
+    <div class="container-fluid" id="Footer">
+      <p id="word1"><small>COPYRIGHT &copy;2018 by The SixNatures</small></p>
+      <p id="Con">
+          <a href="#" id="word">|&emsp;About us&emsp;</a>
+          <a href="#" id="word">|&emsp;Contact&emsp;|</a>
+      </p>
+  </div>
+</div>
+
+
+  </body>
+
+</html>
